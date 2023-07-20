@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="39.702321">
+<testcase classname="To validate the login functionality of fb Application" name="To validate login with invalid username and invalid password" time="9.237964">
+<system-out><![CDATA[Given user need to be in login page.........................................passed
+When user should enter invalid "java@123" and invalid "java"................passed
+And user should click login button..........................................passed
+Then user will navigate to invalid credential page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of fb Application" name="To validate login with invalid username and invalid password 2" time="5.091482">
+<system-out><![CDATA[Given user need to be in login page.........................................passed
+When user should enter invalid "sele@123" and invalid "selenium"............passed
+And user should click login button..........................................passed
+Then user will navigate to invalid credential page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of fb Application" name="To validate login with invalid username and invalid password 3" time="5.217902">
+<system-out><![CDATA[Given user need to be in login page.........................................passed
+When user should enter invalid "python@123" and invalid "python"............passed
+And user should click login button..........................................passed
+Then user will navigate to invalid credential page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of fb Application" name="To validate login with empty username and empty password" time="4.859884">
+<system-out><![CDATA[Given user need to be in login page.........................................passed
+When user clicks login button...............................................passed
+Then user will redirect to invalid credential page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the functionality of amazon application" name="To validate searchbox with product name" time="15.295089">
+<system-out><![CDATA[Given user need to be in amazon page........................................passed
+When user should enter product name in search box...........................passed
+And user should click search button.........................................passed
+Then user will navigate to products page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

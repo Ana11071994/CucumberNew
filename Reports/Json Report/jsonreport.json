@@ -1,0 +1,503 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1493349200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in login page",
+            "match": {
+              "location": "StepDefenition1.user_need_to_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-20T09:14:07.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6052787500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.chrome()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To validate login with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-login-with-invalid-username-and-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 121600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 478106700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter invalid \"java@123\" and invalid \"java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@123\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"java\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefenition1.user_should_enter_invalid_and_invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185625301,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click login button",
+            "match": {
+              "location": "StepDefenition1.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 962424599,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will navigate to invalid credential page",
+            "match": {
+              "location": "StepDefenition1.user_will_navigate_to_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355300200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in login page",
+            "match": {
+              "location": "StepDefenition1.user_need_to_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-20T09:14:17.239Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2214493201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.chrome()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate login with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-login-with-invalid-username-and-invalid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 78100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 387134600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter invalid \"sele@123\" and invalid \"selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sele@123\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"selenium\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefenition1.user_should_enter_invalid_and_invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201675901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click login button",
+            "match": {
+              "location": "StepDefenition1.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 922152300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will navigate to invalid credential page",
+            "match": {
+              "location": "StepDefenition1.user_will_navigate_to_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1648674899,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in login page",
+            "match": {
+              "location": "StepDefenition1.user_need_to_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-20T09:14:22.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2162776001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.chrome()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate login with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-login-with-invalid-username-and-invalid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 79000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 394612001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter invalid \"python@123\" and invalid \"python\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"python@123\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"python\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefenition1.user_should_enter_invalid_and_invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115569800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click login button",
+            "match": {
+              "location": "StepDefenition1.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 888923301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will navigate to invalid credential page",
+            "match": {
+              "location": "StepDefenition1.user_will_navigate_to_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1585323299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in login page",
+            "match": {
+              "location": "StepDefenition1.user_need_to_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-20T09:14:27.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2063008400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.chrome()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate login with empty username and empty password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-login-with-empty-username-and-empty-password",
+        "after": [
+          {
+            "result": {
+              "duration": 905802099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 297395000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks login button",
+            "match": {
+              "location": "StepDefenition2.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user will redirect to invalid credential page",
+            "match": {
+              "location": "StepDefenition2.user_will_redirect_to_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of fb Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-20T09:14:32.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2044532800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.chrome()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate searchbox with product name",
+        "description": "",
+        "id": "to-validate-the-functionality-of-amazon-application;to-validate-searchbox-with-product-name",
+        "after": [
+          {
+            "result": {
+              "duration": 70699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6494795001,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in amazon page",
+            "match": {
+              "location": "StepDefenitions3.user_need_to_be_in_amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1244063501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter product name in search box",
+            "match": {
+              "location": "StepDefenitions3.user_should_enter_product_name_in_search_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Product",
+                  "New Product"
+                ]
+              },
+              {
+                "cells": [
+                  "iphone",
+                  "Mac Laptop"
+                ]
+              },
+              {
+                "cells": [
+                  "tshirt",
+                  "smart watch"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4475353200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click search button",
+            "match": {
+              "location": "StepDefenitions3.user_should_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021508899,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will navigate to products page",
+            "match": {
+              "location": "StepDefenitions3.user_will_navigate_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of amazon application",
+    "description": "",
+    "id": "to-validate-the-functionality-of-amazon-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/product.feature",
+    "tags": []
+  }
+]
